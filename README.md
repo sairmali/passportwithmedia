@@ -1,7 +1,7 @@
-# passportwithmedia
+# Passportwithmedia
 This example for laravel passport with medialibrary
   
-# installation
+# Installation
 camposer update or composer install
 
 # Auth Api
