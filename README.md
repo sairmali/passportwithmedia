@@ -23,6 +23,7 @@ curl --location --request POST 'http://127.0.0.1:8000/api/login' \
 # Employee Operation
 http://127.0.0.1:8000/api/employee
 
+----GET RECORD----
 curl --location --request GET 'http://127.0.0.1:8000/api/employee' \
 --header 'Accept: application/json' \
 --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5OWI3NTFjMC1kMWJjLTRlYTMtODQyMi0xNWJkZmU4MTNhNTUiLCJqdGkiOiIyNjdhNGE3NzljODYzODllOWE0ZDBkYmU2MzM1MjU0YzMyZGZkOTE2NmFlMGE5NDI2Yzg3YzQwMjZiMTI1ZGExYzBlYWVhZTE3NzNiNmU2OSIsImlhdCI6MTY5MDEyNjMxNi41MTIwNDcsIm5iZiI6MTY5MDEyNjMxNi41MTIwNTEsImV4cCI6MTcyMTc0ODcxNi40MzA1NzEsInN1YiI6IjIyIiwic2NvcGVzIjpbXX0.Ar96BB0rvAmRbRhBc5xODRPDqAhXru_1aJOpzN15gYp69g5kk7k_oYjuTEY6vFdobYXJL7MlLaX-RThBZR3W7-B8uDaqz47DNPjj3rbHWvUlBTdI3GLkgKMGKumHgOdnEO1jOLWLehNczM7BjSUpzMgu0L7BJN9qbaiYvDu7rHgq4K8dB4WBLiCGP9dJXhb3VvPQjkC1R_ILk2Iv6_si4UZW_wPsoVOvA_vrkJwk-DAvGhSm5MdIVTXG-kRZPMv2gfs33Vn8fkdlpBCK6hTMfZ6CSBcKBkv17gDPmZhZhuJoEb5zojl_n_iUCXo62xY7Hm11_uwieu45qSYwye-0R7SCmqlkccFgft56yZk_-M_4h8mjDR_c1_DwPIt5aIZKYsZt4_rJOZ_AQDRkJzL4DPWXL0nJP3T_ws_GTJz-p7g0JN-eODPSu3UepaqjNUFlczNb02otwGw3BS_t1YpQ6MHTNeNhpfQznesK1C_2I0y3gkW1qwPD53MYNlOeQ6RppnKDiK28aD-qBAN_u3mxQRsBluLPvmbdunhiKv-LtfHuuzy4HyWyEZSm2OlxfFCn2bOlpGiQzZX2Xtc-QKTJAEA_MpLepLLb6rRpcjR8KyEHaoc6qCmMH4yyw5sfYgENMYO2Mcb3PhwLk3u02JglEvCQyj4lGk62qtkwO5J0two'
@@ -30,7 +31,7 @@ curl --location --request GET 'http://127.0.0.1:8000/api/employee' \
 
 http://127.0.0.1:8000/api/employee
 
-
+----ADD----
 curl --location --request POST 'http://127.0.0.1:8000/api/employee' \
 --header 'Accept: application/json' \
 --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5OWI3NTFjMC1kMWJjLTRlYTMtODQyMi0xNWJkZmU4MTNhNTUiLCJqdGkiOiIyNjdhNGE3NzljODYzODllOWE0ZDBkYmU2MzM1MjU0YzMyZGZkOTE2NmFlMGE5NDI2Yzg3YzQwMjZiMTI1ZGExYzBlYWVhZTE3NzNiNmU2OSIsImlhdCI6MTY5MDEyNjMxNi41MTIwNDcsIm5iZiI6MTY5MDEyNjMxNi41MTIwNTEsImV4cCI6MTcyMTc0ODcxNi40MzA1NzEsInN1YiI6IjIyIiwic2NvcGVzIjpbXX0.Ar96BB0rvAmRbRhBc5xODRPDqAhXru_1aJOpzN15gYp69g5kk7k_oYjuTEY6vFdobYXJL7MlLaX-RThBZR3W7-B8uDaqz47DNPjj3rbHWvUlBTdI3GLkgKMGKumHgOdnEO1jOLWLehNczM7BjSUpzMgu0L7BJN9qbaiYvDu7rHgq4K8dB4WBLiCGP9dJXhb3VvPQjkC1R_ILk2Iv6_si4UZW_wPsoVOvA_vrkJwk-DAvGhSm5MdIVTXG-kRZPMv2gfs33Vn8fkdlpBCK6hTMfZ6CSBcKBkv17gDPmZhZhuJoEb5zojl_n_iUCXo62xY7Hm11_uwieu45qSYwye-0R7SCmqlkccFgft56yZk_-M_4h8mjDR_c1_DwPIt5aIZKYsZt4_rJOZ_AQDRkJzL4DPWXL0nJP3T_ws_GTJz-p7g0JN-eODPSu3UepaqjNUFlczNb02otwGw3BS_t1YpQ6MHTNeNhpfQznesK1C_2I0y3gkW1qwPD53MYNlOeQ6RppnKDiK28aD-qBAN_u3mxQRsBluLPvmbdunhiKv-LtfHuuzy4HyWyEZSm2OlxfFCn2bOlpGiQzZX2Xtc-QKTJAEA_MpLepLLb6rRpcjR8KyEHaoc6qCmMH4yyw5sfYgENMYO2Mcb3PhwLk3u02JglEvCQyj4lGk62qtkwO5J0two' \
@@ -42,7 +43,7 @@ curl --location --request POST 'http://127.0.0.1:8000/api/employee' \
 --form 'image=@"/C:/Users/Asus/Downloads/pexels-pixabay-268533.jpg"'
 
 
-
+----UPDATE----
 http://127.0.0.1:8000/api/employee/13
 
 
@@ -54,3 +55,12 @@ curl --location --request PATCH 'http://127.0.0.1:8000/api/employee/13' \
 --form 'job="php laravel"' \
 --form 'salary="120"' \
 --form 'image=@"/C:/Users/Asus/Downloads/thumbnail.png"'
+
+
+
+----DELETE----
+http://127.0.0.1:8000/api/employee/13
+
+curl --location --request DELETE 'http://127.0.0.1:8000/api/employee/13' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5OWI3NTFjMC1kMWJjLTRlYTMtODQyMi0xNWJkZmU4MTNhNTUiLCJqdGkiOiIyNjdhNGE3NzljODYzODllOWE0ZDBkYmU2MzM1MjU0YzMyZGZkOTE2NmFlMGE5NDI2Yzg3YzQwMjZiMTI1ZGExYzBlYWVhZTE3NzNiNmU2OSIsImlhdCI6MTY5MDEyNjMxNi41MTIwNDcsIm5iZiI6MTY5MDEyNjMxNi41MTIwNTEsImV4cCI6MTcyMTc0ODcxNi40MzA1NzEsInN1YiI6IjIyIiwic2NvcGVzIjpbXX0.Ar96BB0rvAmRbRhBc5xODRPDqAhXru_1aJOpzN15gYp69g5kk7k_oYjuTEY6vFdobYXJL7MlLaX-RThBZR3W7-B8uDaqz47DNPjj3rbHWvUlBTdI3GLkgKMGKumHgOdnEO1jOLWLehNczM7BjSUpzMgu0L7BJN9qbaiYvDu7rHgq4K8dB4WBLiCGP9dJXhb3VvPQjkC1R_ILk2Iv6_si4UZW_wPsoVOvA_vrkJwk-DAvGhSm5MdIVTXG-kRZPMv2gfs33Vn8fkdlpBCK6hTMfZ6CSBcKBkv17gDPmZhZhuJoEb5zojl_n_iUCXo62xY7Hm11_uwieu45qSYwye-0R7SCmqlkccFgft56yZk_-M_4h8mjDR_c1_DwPIt5aIZKYsZt4_rJOZ_AQDRkJzL4DPWXL0nJP3T_ws_GTJz-p7g0JN-eODPSu3UepaqjNUFlczNb02otwGw3BS_t1YpQ6MHTNeNhpfQznesK1C_2I0y3gkW1qwPD53MYNlOeQ6RppnKDiK28aD-qBAN_u3mxQRsBluLPvmbdunhiKv-LtfHuuzy4HyWyEZSm2OlxfFCn2bOlpGiQzZX2Xtc-QKTJAEA_MpLepLLb6rRpcjR8KyEHaoc6qCmMH4yyw5sfYgENMYO2Mcb3PhwLk3u02JglEvCQyj4lGk62qtkwO5J0two'
