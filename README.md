@@ -2,7 +2,11 @@
 This example for laravel passport with medialibrary
   
 # Installation
-camposer update or composer install
+camposer update 
+      or 
+composer install
+
+php artisan migrate:fresh
 
 # Auth Api
 http://127.0.0.1:8000/api/register
